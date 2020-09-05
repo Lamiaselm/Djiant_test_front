@@ -1,5 +1,5 @@
 body{
-   font-family: 'Calibri';
+   font-family: 'Calibri', sans-serif;
 }
 .icon_std{
    width: 25px;
@@ -16,7 +16,7 @@ body{
 
 }
 .top-side{
-    font-size:17px ;
+    font-size:17 ;
     font-weight: 700;
     float: left;
     display:block;
@@ -24,7 +24,7 @@ body{
 }
 .menu{
     font-size:13px ;
-    float: left;
+   
     display:block;
  
 }
@@ -40,4 +40,20 @@ body{
     margin: 10px 0px 0px 0px;
     padding: 2px 10px 1px 8px;
     
+}
+.title{
+    margin: 30px;
+    font-size: 13;
+}
+#list{
+    padding:80px 0;
+}
+.def{
+    text-align: left;
+    margin: 40px;
+    padding:40px
+}
+.title1{
+    font-size: 17;
+    font-weight: 700;
 }
