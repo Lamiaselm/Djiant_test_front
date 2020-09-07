@@ -94,10 +94,19 @@ ul,li{
     margin-top: 10px;
     margin-right: 40px;
 }
-.selected{
+.selected1{
     color: white;
     background-color: #1E5AC8;
-    width: 250px;
+    width: 230px;
+    border-radius: 4px !important;
+    padding: 5px;
+    font-family: 'Calibri',sans-serif;
+    font-size: 13px;
+}
+.selected2{
+    color: white;
+    background-color: #1E5AC8;
+    width: 200px;
     border-radius: 4px !important;
     padding: 5px;
     font-family: 'Calibri',sans-serif;
@@ -120,7 +129,10 @@ ul,li{
     cursor: pointer;
     margin-right: 15px;
 }
-#elmnt.selected{
+#elmnt.selected1 {
+    margin-left:-5px ;
+}
+#elmnt.selected2{
     margin-left:-5px ;
 }
 .detail-icon{
@@ -128,5 +140,5 @@ ul,li{
     width: 80px;
 }
 .link-button{
-    color: #DBDBDB;
+   background-color: #DBDBDB;
 }
