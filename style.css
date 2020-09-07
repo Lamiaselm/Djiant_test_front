@@ -123,4 +123,10 @@ ul,li{
 #elmnt.selected{
     margin-left:-5px ;
 }
-
+.detail-icon{
+    height: 80px;
+    width: 80px;
+}
+.link-button{
+    color: #DBDBDB;
+}
