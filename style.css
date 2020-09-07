@@ -140,5 +140,13 @@ ul,li{
     width: 80px;
 }
 .link-button{
-   background-color: #DBDBDB;
+    background-color: #DBDBDB;
+    border:2px solid #A8A8A8;
+    font-family: 'Calibri', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 8px 24px 8px 24px;
+    border-radius: 2px;
+    
+
 }
