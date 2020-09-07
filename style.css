@@ -1,12 +1,18 @@
 body{
    font-family: 'Calibri', sans-serif;
+ 
+}
+
+.navbar-inner{
+    
+    background-color:#FFFFFF;
 }
 .icon_std{
    width: 25px;
    height: 25px;
 }
 .separator{
-    border-left:2px solid #383838;
+    border-left:2px solid #A8A8A8;
     height: 20px;
     margin: 0px 20px 0px 20px;
   
@@ -54,15 +60,21 @@ body{
     padding:10px
 }
 .title1{
-    font-size: 19;
-    font-weight: 700;
+    font-size: 17;
+    font-weight: 900;
 }
 .row{
     margin-left: 10px;
 }
 .container-inner{
-    margin:50px;
+    margin:40px 40px 40px 45px;
 }
 .title2{
     font-weight: 700;
+}
+.img{
+    height: 25px;
+    width: 25px;
+   
+    color: #383838;
 }
