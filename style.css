@@ -87,4 +87,35 @@
     font-size: 15px;
     font-weight: 700;
 }
+ul,li{
+    list-style-type: none;
+}
+#elmnt{
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.selected{
+    color: white;
+    background-color: #1E5AC8;
+    border-radius: 4px !important;
+    padding: 5px;
+    font-family: 'Calibri',sans-serif;
+    font-size: 13px;
+}
+#my-list{
+    padding: 0px;
+    margin: 0px;
+}
+.icon_list{
+    width: 25px;
+    height: 25px;
    
+    margin-right: 15px;
+    cursor: pointer;
+}
+.icon_list_selected{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-right: 15px;
+}
