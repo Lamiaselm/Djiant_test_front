@@ -97,6 +97,7 @@ ul,li{
 .selected{
     color: white;
     background-color: #1E5AC8;
+    width: 250px;
     border-radius: 4px !important;
     padding: 5px;
     font-family: 'Calibri',sans-serif;
@@ -119,3 +120,7 @@ ul,li{
     cursor: pointer;
     margin-right: 15px;
 }
+#elmnt.selected{
+    margin-left:-5px ;
+}
+
