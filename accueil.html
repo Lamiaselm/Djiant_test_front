@@ -16,9 +16,11 @@
             function(){
                 $("#button").click(
                     function(){
+                        document.getElementById("navbar-top").style.display="none";
                         document.getElementById("navbar").style.display="none";
                         document.getElementById("content").style.display="none";
                         document.getElementById("link").style.display="block";
+                        document.getElementById("navbar-top-link").style.display="block";
                     }
                 )
             }
@@ -26,22 +28,25 @@
     </script>
 </head>
 <body> 
-    <div class="page-header navbar-fixed-top navbar-inner" style="margin:0px;padding:10px 0px 10px 30px;">
+    <div id="navbar-top" class="page-header navbar-fixed-top navbar-inner" style="margin:0px;padding:10px 0px 10px 30px;">
+        <div class="top-side">
+         <img src="Assets/icon.svg" alt="icon" class="icon_std"><span class="separator"></span><img src="Assets/icon.svg" alt="icon" class="icon_std" style="margin-right: 20px;">Djiant - Documentation center
+
+        </div>
+    </div>
+    <div id="navbar-top-link" class="page-header navbar-fixed-top navbar-inner" style="margin:0px;padding:10px 0px 10px 30px; display: none;">
         <div class="top-side">
          <img src="Assets/icon.svg" alt="icon" class="icon_std"><span class="separator"></span><img src="Assets/icon.svg" alt="icon" class="icon_std" style="margin-right: 20px;">Djiant for Community leaders - Djiant Server
 
         </div>
     </div>
-<div id="navbar" class="page-header navbar-fixed-top navbar-inner" style="padding:10px 0px 10px 30px;">
+<div id="navbar" class="page-header navbar-fixed-top navbar-inner" style="padding:10px 0px 10px 30px;margin-top: 47px;">
     <div class="menu">
         <div class="row">
         <div class="col-md-3"><span class="separator-lighter" ></span> Emplacement</div>
         <div class="col-md-2"><span class="separator-lighter" ></span>Ressources</div>
         <div class="col-md-6"><span class="separator-lighter"></span>Détail</div>
     </div>
-     
-       
-    
 </div>
 </div>
 
@@ -68,7 +73,7 @@
             </ul>
         </div>
         <div class="col-md-6">
-          <div style="padding: 15px 0px 10px 100px;"><img src="Assets/icon.svg" class="detail-icon" alt=""></div>
+          <div style="padding: 15px 0px 10px 120px;"><img src="Assets/icon.svg" class="detail-icon" alt=""></div>
           <form>
             <div class="form-group row">
                 <label class="col-sm-2 col-form-label title3 text-right">Type</label>
