@@ -1,6 +1,7 @@
 *{
     font-family:'Calibri',sans-serif;
     font-size: 13px;
+    color: #000000;
 }
 /*******************************Navbar**************************/
 .navbar-inner{
@@ -24,11 +25,12 @@
     font-weight: 700;
     float: left;
     display:block;
+    color: #000000;
     
 }
 .menu{
     font-size:13px ;
-   
+    color: #000000;
     display:block;
  
 }
@@ -110,6 +112,7 @@ ul,li{
 #link{
     font-family: 'Calibri',sans-serif;  
     font-size: 15px;
+    color: #000000;
 }
 .row-inner{
     margin-top: 30px;
@@ -131,18 +134,22 @@ ul,li{
 .normal-text{
     font-family: 'Calibri',sans-serif;
     font-size: 13px;
+    color: #000000;
 }
 .title3{
     font-family: 'Calibri Bold',sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 300;
+    color: #000000;
 }
 .title1{
     font-size: 17px;
     font-weight: 700;
     font-family: 'Calibri Bold',sans-serif;  
+    color: #000000;
 }
 .title2{
     font-weight: 700;
     font-family: 'Calibri Bold', sans-serif;  
+    color: #000000;
 }
